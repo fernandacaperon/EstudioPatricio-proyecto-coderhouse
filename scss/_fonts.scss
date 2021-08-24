@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$fontMain: "Open Sans", sans-serif;
+$fontColorWhite: white;
+$fontSizeBig: 7rem;
+$fontSizeMedium: 5rem;
+$fontSizaSmall: 2rem;
+$fontBold: 900;
+$fontSemiBold: 700;
+$fontRegular: 400;
+$fontThin: 200;
+
+h1 {
+    font-family: $fontMain;
+    font-size: $fontSizeBig;
+    color: $fontColorWhite;
+}
+
+h3 {
+    font-family: $fontMain;
+    font-size: $fontSizeMedium;
+    font-weight: $fontThin;
+    text-align: center;
+}
+
+h4{
+    font-family: $fontMain;
+}
+
+p {
+    font-family: $fontMain;
+}
+
+.tituloPrincipal {
+    font-family: $fontMain;
+    font-size: $fontSizeBig;
+    color: $fontColorWhite;
+    text-align: center;
+    font-weight: $fontBold;
+}
+
+.tituloUl {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #EF3D54;
+}
+
+.tituloTercero {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    line-height: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+.destacado {
+    font-size: 18px;
+    font-weight: $fontRegular;
+    text-align: center;
+    color: #414141;
+    line-height: 1.9rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}

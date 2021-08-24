@@ -1,0 +1,220 @@
+.grilla{
+    width: $w-99;
+    display: $d-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, auto);
+    grid-template-areas: 
+    "nav"
+    "contenedorA"
+    "contenedorB"
+    "contenedorC"
+    "contenedorD"
+    "contenedorE"
+    "contenedorF"
+    "contenedorG"
+    "contenedorH"
+    "contenedorI"
+    "contenedorJ"
+    "footer";
+}
+
+@media only screen and (min-width: 768px){
+    .grilla{
+        width: $w-99;
+        display: $d-grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: 
+        "nav nav nav"
+        "contenedorA contenedorA contenedorA"
+        "contenedorB contenedorB contenedorB"
+        "contenedorC contenedorD contenedorD"
+        "contenedorE contenedorE contenedorE"
+        "contenedorF contenedorG contenedorH"
+        "contenedorI contenedorI contenedorI"
+        "contenedorJ contenedorJ contenedorJ"
+        "footer footer footer";
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .grilla{
+        width: $w-99;
+        display: $d-grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: 
+        "nav nav nav"
+        "contenedorA contenedorA contenedorA"
+        "contenedorB contenedorB contenedorB"
+        "contenedorC contenedorD"
+        "contenedorE contenedorE contenedorE"
+        "contenedorF contenedorG contenedorH"
+        "contenedorI contenedorI contenedorI"
+        "contenedorJ contenedorJ contenedorJ"
+        "footer footer footer";
+    }
+}
+
+#contenedorA {
+    grid-area:contenedorA;
+    background-color: #EF3D54;
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: ce;
+}
+
+#contenedorB {
+    grid-area: contenedorB;
+    padding: 3rem;
+    background-color: #f4f1ed;
+}
+
+#contenedorC {
+    grid-area: contenedorC;
+    background-color:#f4f1ed;
+    align-items: left;
+    padding-left: 5rem;
+    padding-right: rem;
+    padding-bottom: rem;
+}
+
+#contenedorD {
+    display: flex;
+    grid-area: contenedorD;
+    background-color: #f4f1ed;
+    padding-right: 10rem;
+    padding-left: 15rem;
+    padding-bottom: 2rem;
+}
+
+#contenedorE {
+    grid-area: contenedorE;
+    padding-top: 2rem;
+}
+
+#contenedorF {
+    grid-area: contenedorF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+#contenedorG {
+    grid-area: contenedorG;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+#contenedorH {
+    grid-area: contenedorH;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+#contenedorI {
+    grid-area: contenedorI;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#contenedorJ {
+    grid-area: contenedorJ;
+}
+
+// Grilla porfolio
+
+.gridPortfolio{
+    width: 99%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto
+    auto
+    auto
+    200px
+    200px
+    200px
+    200px
+    200px;
+    grid-template-areas: 
+    "sectionA" "sectionB"
+    "sectionC" "sectionD" "sectionE"
+    "sectionF" "sectionG" "sectionH";
+}
+
+@media only screen and (min-width: 768px) {
+    .gridPortfolio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto
+        auto
+        200px
+        200px
+        200px;
+        grid-template-areas: 
+        "sectionA sectionB" 
+        "sectionC sectionD" 
+        "sectionE sectionF"
+        "sectionG sectionH";
+    } 
+}
+
+@media only screen and (min-width: 1024px) {
+    .gridPortfolio{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 
+        auto
+        auto
+        200px;
+        grid-template-areas: 
+        "sectionA sectionB sectionB"
+        "sectionC sectionD sectionE"
+        "sectionF sectionG sectionH";
+    }
+}
+
+#sectionA{
+    grid-area: sectionA;
+    padding: 3rem;
+    color: grey;
+}
+
+#sectionB{
+    grid-area: sectionB;
+}
+
+#sectionC{
+    grid-area: sectionC;
+}
+
+#sectionD{
+    grid-area: sectionD;
+    background-color: darkkhaki;
+}
+
+#sectionE {
+    grid-area: sectionE;
+}
+
+#sectionF {
+    grid-area: sectionF;
+    background-color: darkslategray;
+}
+
+#sectionG {
+    grid-area: sectionG;
+    background-color: dimgray;
+}
+
+#sectionH {
+    grid-area: sectionH;
+    background-color: lightcoral;
+    padding: 2rem;
+}
+

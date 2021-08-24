@@ -1,0 +1,31 @@
+footer {
+    background-color: $bg-black;
+    background-position: inherit;
+    background-size: cover;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    p {
+        color: white;
+        padding-top: 1.5rem;
+    }
+}
+
+.iconoFooter {
+    width: 30px;
+    margin-bottom: 1rem;
+
+}
+
+ul{
+    float: right;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
