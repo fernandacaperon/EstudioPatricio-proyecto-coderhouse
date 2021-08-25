@@ -1,15 +1,35 @@
 .paraTransicion:hover {
-    transition: 3s;
-    font-size: 6rem;
-  }
+  transition: 3s;
+  font-size: 8rem;
+}
 
-  .iconoServicios {
-    width: 50%;
-    align-content: center;
-    transform: translate(70px);
+.iconoServicios {
+  width: 50%;
+  align-content: center;
+  transform: translate(70px);
 }
 
 .imagen100 {
   width: $img-100;
 }
 
+input {
+  width: 100px; height: 100px;
+  transition: all 2s;       
+}
+
+input:focus {
+  width: 200px;
+  font-size: 24px;
+}
+
+.btnPortfolio  {
+  text-decoration: none;
+  color: white;
+}
+
+.btnPortfolio:hover {
+  opacity: 0.5;
+  background: #EF3D54;
+  // scale-in-center{animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both}
+}

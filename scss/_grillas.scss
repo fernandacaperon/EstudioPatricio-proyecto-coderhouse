@@ -60,7 +60,7 @@
     grid-area:contenedorA;
     background-color: #EF3D54;
     color: white;
-    padding-top: 7rem;
+    padding-top: rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -70,12 +70,15 @@
 #contenedorB {
     grid-area: contenedorB;
     padding: 3rem;
-    background-color: #f4f1ed;
+    background-color: #F1F2F2;
+    // background-color: #E6E7E8;
+    // background-color: #f4f1ed;
 }
 
 #contenedorC {
     grid-area: contenedorC;
-    background-color:#f4f1ed;
+    background-color: #F1F2F2;
+    // background-color:#f4f1ed;
     align-items: left;
     padding-left: 5rem;
     padding-right: rem;
@@ -195,7 +198,6 @@
 
 #sectionD{
     grid-area: sectionD;
-    background-color: darkkhaki;
 }
 
 #sectionE {
