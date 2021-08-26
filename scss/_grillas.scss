@@ -60,7 +60,7 @@
     grid-area:contenedorA;
     background-color: #EF3D54;
     color: white;
-    padding-top: rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -146,8 +146,7 @@
     200px;
     grid-template-areas: 
     "sectionA" "sectionB"
-    "sectionC" "sectionD" "sectionE"
-    "sectionF" "sectionG" "sectionH";
+    "sectionC" "sectionD" "sectionE";
 }
 
 @media only screen and (min-width: 768px) {
@@ -156,14 +155,12 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto
         auto
-        200px
-        200px
-        200px;
+        auto
+        auto
         grid-template-areas: 
         "sectionA sectionB" 
         "sectionC sectionD" 
-        "sectionE sectionF"
-        "sectionG sectionH";
+        "sectionE sectionF";
     } 
 }
 
@@ -174,11 +171,9 @@
         grid-template-rows: 
         auto
         auto
-        200px;
         grid-template-areas: 
         "sectionA sectionB sectionB"
-        "sectionC sectionD sectionE"
-        "sectionF sectionG sectionH";
+        "sectionC sectionD sectionE";
     }
 }
 
@@ -187,6 +182,7 @@
     padding: 3rem;
     color: grey;
 }
+
 
 #sectionB{
     grid-area: sectionB;
@@ -198,6 +194,7 @@
 
 #sectionD{
     grid-area: sectionD;
+    background-color: darkkhaki;
 }
 
 #sectionE {
@@ -219,4 +216,3 @@
     background-color: lightcoral;
     padding: 2rem;
 }
-

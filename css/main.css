@@ -87,11 +87,13 @@ p {
   text-align: left;
   font-weight: 900; }
 
-.destacado {
+.destacado2 {
   font-size: 2rem;
   font-weight: 100;
   line-height: 3rem;
-  text-align: left; }
+  text-align: left;
+  padding-left: 6rem;
+  padding-right: 6rem; }
 
 nav {
   background-color: white;
@@ -194,7 +196,7 @@ a {
   grid-area: contenedorA;
   background-color: #EF3D54;
   color: white;
-  padding-top: rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -256,7 +258,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto 200px 200px 200px 200px 200px;
-  grid-template-areas: "sectionA" "sectionB" "sectionC" "sectionD" "sectionE" "sectionF" "sectionG" "sectionH"; }
+  grid-template-areas: "sectionA" "sectionB" "sectionC" "sectionD" "sectionE"; }
 
 @media only screen and (min-width: 768px) {
   .gridPortfolio {
