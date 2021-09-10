@@ -31,13 +31,35 @@ p {
     font-family: $fontMain;
 }
 
-.tituloPrincipal {
-    font-family: $fontMain;
-    font-size: $fontSizeBig;
-    color: $fontColorWhite;
-    text-align: center;
-    font-weight: $fontBold;
-}
+@media only screen and (max-width: 484px) {
+    .tituloPrincipal {
+        font-family: $fontMain;
+        font-size: 2rem;
+        color: $fontColorWhite;
+        text-align: center;
+        font-weight: $fontBold;
+        }
+  }
+
+  @media only screen and (min-width: 484px) and (max-width: 960px) {
+    .tituloPrincipal {
+        font-family: $fontMain;
+        font-size: 3rem;
+        
+        text-align: center;
+        font-weight: $fontBold;
+        }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .tituloPrincipal {
+            font-family: $fontMain;
+            font-size: $fontSizeBig;
+            color: $fontColorWhite;
+            text-align: center;
+            font-weight: $fontBold;
+            }
+  }
 
 .tituloSecundario {
     font-family: $fontMain;
@@ -54,24 +76,76 @@ p {
     color: #EF3D54;
 }
 
-.tituloTercero {
-    font-size: 50px;
-    font-weight: 200;
-    text-align: center;
-    color: #000;
-    line-height: 2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-bottom: 4rem;
-    padding-top: 3rem;
+@media only screen and (max-width: 484px) {
+    .tituloTercero {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        color: #000;
+        line-height: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 484px) and (max-width: 960px) {
+    .tituloTercero {
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+        color: #000;
+        line-height: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .tituloTercero {
+        font-size: 50px;
+        font-weight: 200;
+        text-align: center;
+        color: #000;
+        line-height: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-bottom: 4rem;
+        padding-top: 3rem;
+    }
+  }
+
+@media only screen and (max-width: 484px) {
+    .tituloCuarto {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 3rem; 
+        // margin-bottom: 2rem;   
+        margin-top: 1rem;
+    }
 }
 
-.tituloCuarto {
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 0.3rem; 
-    margin-bottom: 3rem;   
-    margin-top: 2rem;
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+    .tituloCuarto {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 3rem; 
+        margin-bottom: 2rem;   
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tituloCuarto {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 0.3rem; 
+        margin-bottom: 3rem;   
+        margin-top: 2rem;
+    }
 }
 
 .tituloQuinto {
@@ -84,15 +158,50 @@ p {
     text-align: center;
 }
 
-
-.destacado {
-    font-size: 18px;
-    font-weight: $fontRegular;
+.tituloSexto {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 6rem; 
+    margin-bottom: 2rem;   
+    margin-top: 1rem;
+    color: white;
     text-align: center;
-    color: #414141;
-    line-height: 1.9rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+}
+
+@media only screen and (max-width: 484px) {
+    .destacado {
+        font-size: 18px;
+        font-weight: $fontRegular;
+        text-align: center;
+        color: #414141;
+        line-height: 1.9rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+    .destacado {
+        font-size: 18px;
+        font-weight: $fontRegular;
+        text-align: center;
+        color: #414141;
+        line-height: 1.9rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .destacado {
+        font-size: 18px;
+        font-weight: $fontRegular;
+        text-align: center;
+        color: #414141;
+        line-height: 1.9rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 .tituloPrincipalLeft {
@@ -111,3 +220,4 @@ p {
     padding-left: 6rem;
     padding-right: 6rem;
 }
+

@@ -1,23 +1,94 @@
-nav {
-    background-color: $bg-white;
-    padding: 1em;
-    padding-top: 2rem;
-    top: 0;
-    position: sticky;
-    box-shadow: $shadow;
-    ul{
-        float: right;
-        padding: 1rem;
-    }
-    li{
-        display: inline-block;
-    }
-    a {
-        color: black;
-        text-decoration: none;
-        margin-right: 20px;
-        font-family: $fontMain;
-    }
-} 
+@media only screen and (max-width: 560px) {
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: $bg-white;
+        padding-top: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: $shadow;
+        height: 5rem;
 
+        ul{
+            float: right;
+            background-color: $bg-white;
+        }
+        li{
+            display: inline-block;
+            background-color: $bg-white;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            margin-right: 10px;
+            font-family: $fontMain;
+            background-color: $bg-white;
+        }
+    } 
+
+    .logo{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 561px) and (max-width: 960px) {
+    nav {
+        background-color: $bg-white;
+        padding: 1em;
+        padding-top: 2rem;
+        top: 0;
+        position: sticky;
+        box-shadow: $shadow;
+        ul{
+            float: right;
+            padding: 1rem;
+        }
+        li{
+            display: inline-block;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+            font-family: $fontMain;
+        }
+    } 
+
+    .logo{
+        margin-left: 10px;
+        width: 150px;
+    }  
+}
+
+@media only screen and (min-width: 1024px) {
+    nav {
+        background-color: $bg-white;
+        padding: 1em;
+        padding-top: 2rem;
+        top: 0;
+        position: sticky;
+        box-shadow: $shadow;
+        ul{
+            float: right;
+            padding: 1rem;
+        }
+        li{
+            display: inline-block;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+            font-family: $fontMain;
+        }
+    } 
+
+    .logo{
+        margin-left: 10px;
+        width: 200px;
+    }   
+}
 

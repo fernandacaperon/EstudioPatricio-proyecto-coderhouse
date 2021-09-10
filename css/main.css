@@ -24,12 +24,28 @@ h4 {
 p {
   font-family: "Open Sans", sans-serif; }
 
-.tituloPrincipal {
-  font-family: "Open Sans", sans-serif;
-  font-size: 6rem;
-  color: white;
-  text-align: center;
-  font-weight: 900; }
+@media only screen and (max-width: 484px) {
+  .tituloPrincipal {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: 900; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .tituloPrincipal {
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900; } }
+
+@media only screen and (min-width: 1024px) {
+  .tituloPrincipal {
+    font-family: "Open Sans", sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    font-weight: 900; } }
 
 .tituloSecundario {
   font-family: "Open Sans", sans-serif;
@@ -44,23 +60,64 @@ p {
   font-weight: 700;
   color: #EF3D54; }
 
-.tituloTercero {
-  font-size: 50px;
-  font-weight: 200;
-  text-align: center;
-  color: #000;
-  line-height: 2rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-bottom: 4rem;
-  padding-top: 3rem; }
+@media only screen and (max-width: 484px) {
+  .tituloTercero {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: #000;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem; } }
 
-.tituloCuarto {
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 0.3rem;
-  margin-bottom: 3rem;
-  margin-top: 2rem; }
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .tituloTercero {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    color: #000;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .tituloTercero {
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    color: #000;
+    line-height: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+    padding-top: 3rem; } }
+
+@media only screen and (max-width: 484px) {
+  .tituloCuarto {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 3rem;
+    margin-top: 1rem; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .tituloCuarto {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .tituloCuarto {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 0.3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem; } }
 
 .tituloQuinto {
   font-size: 5rem;
@@ -71,14 +128,44 @@ p {
   color: white;
   text-align: center; }
 
-.destacado {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  color: #414141;
-  line-height: 1.9rem;
-  padding-left: 6rem;
-  padding-right: 6rem; }
+.tituloSexto {
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: white;
+  text-align: center; }
+
+@media only screen and (max-width: 484px) {
+  .destacado {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #414141;
+    line-height: 1.9rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .destacado {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #414141;
+    line-height: 1.9rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .destacado {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #414141;
+    line-height: 1.9rem;
+    padding-left: 6rem;
+    padding-right: 6rem; } }
 
 .tituloPrincipalLeft {
   font-family: "Open Sans", sans-serif;
@@ -95,27 +182,91 @@ p {
   padding-left: 6rem;
   padding-right: 6rem; }
 
-nav {
-  background-color: white;
-  padding: 1em;
-  padding-top: 2rem;
-  top: 0;
-  position: sticky;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
-  nav ul {
-    float: right;
-    padding: 1rem; }
-  nav li {
-    display: inline-block; }
-  nav a {
-    color: black;
-    text-decoration: none;
-    margin-right: 20px;
-    font-family: "Open Sans", sans-serif; }
+@media only screen and (max-width: 560px) {
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    height: 5rem; }
+    nav ul {
+      float: right;
+      background-color: white; }
+    nav li {
+      display: inline-block;
+      background-color: white; }
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin-right: 10px;
+      font-family: "Open Sans", sans-serif;
+      background-color: white; }
+  .logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px; } }
 
-.paraTransicion:hover {
-  transition: 3s;
-  font-size: 8rem; }
+@media only screen and (min-width: 561px) and (max-width: 960px) {
+  nav {
+    background-color: white;
+    padding: 1em;
+    padding-top: 2rem;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+    nav ul {
+      float: right;
+      padding: 1rem; }
+    nav li {
+      display: inline-block; }
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: "Open Sans", sans-serif; }
+  .logo {
+    margin-left: 10px;
+    width: 150px; } }
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: white;
+    padding: 1em;
+    padding-top: 2rem;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+    nav ul {
+      float: right;
+      padding: 1rem; }
+    nav li {
+      display: inline-block; }
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: "Open Sans", sans-serif; }
+  .logo {
+    margin-left: 10px;
+    width: 200px; } }
+
+@media only screen and (max-width: 484px) {
+  .paraTransicion:hover {
+    transition: 3s;
+    font-size: 0.5rem; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .paraTransicion:hover {
+    transition: 3s;
+    font-size: 4rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .paraTransicion:hover {
+    transition: 3s;
+    font-size: 8rem; } }
 
 .iconoServicios {
   width: 50%;
@@ -141,6 +292,48 @@ input:focus {
 .btnPortfolio:hover {
   opacity: 0.5;
   background: #EF3D54; }
+
+.background-Patricio {
+  background-color: #EF3D54; }
+
+.contenedorHead {
+  background-image: linear-gradient(240.75deg, #a9c2e2 -7.54%, #b198af 55.54%, #6d87bc 101.81%);
+  padding-top: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+  margin-bottom: 3rem; }
+
+.contenedorHeadB {
+  background-color: #797687;
+  height: 100;
+  padding-top: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-align: left; }
+
+.contenedor404 {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem; }
+
+@media only screen and (max-width: 484px) {
+  .video {
+    max-width: 100%; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .video {
+    max-width: 100%; } }
+
+@media only screen and (min-width: 960px) and (min-width: 1024px) {
+  .video {
+    max-width: 150%; } }
 
 footer {
   background-color: black;
@@ -172,7 +365,7 @@ a {
 .grilla {
   width: 99%;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
   grid-template-rows: repeat(12, auto);
   grid-template-areas: "nav" "contenedorA" "contenedorB" "contenedorC" "contenedorD" "contenedorE" "contenedorF" "contenedorG" "contenedorH" "contenedorI" "contenedorJ" "footer"; }
 
@@ -200,79 +393,128 @@ a {
   padding-bottom: 5rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  text-align: ce; }
+  text-align: center; }
 
 #contenedorB {
   grid-area: contenedorB;
   padding: 3rem;
-  background-color: #F1F2F2; }
-
-#contenedorC {
-  grid-area: contenedorC;
   background-color: #F1F2F2;
-  align-items: left;
-  padding-left: 5rem;
-  padding-right: rem;
-  padding-bottom: rem; }
+  box-sizing: border-box; }
 
-#contenedorD {
-  display: flex;
-  grid-area: contenedorD;
-  background-color: #f4f1ed;
-  padding-right: 10rem;
-  padding-left: 15rem;
-  padding-bottom: 2rem; }
+@media only screen and (max-width: 484px) {
+  #contenedorC {
+    grid-area: contenedorC;
+    background-color: #F1F2F2;
+    align-items: left;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    max-width: auto;
+    height: auto; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  #contenedorC {
+    grid-area: contenedorC;
+    background-color: #F1F2F2;
+    align-items: left;
+    box-sizing: border-box;
+    max-width: auto;
+    height: auto; } }
+
+@media only screen and (min-width: 960px) and (max-width: 1440px) {
+  #contenedorC {
+    grid-area: contenedorC;
+    background-color: #F1F2F2;
+    align-items: left;
+    padding-left: 5rem;
+    box-sizing: border-box;
+    max-width: auto;
+    height: auto; } }
+
+@media only screen and (max-width: 484px) {
+  #contenedorD {
+    display: flex;
+    grid-area: contenedorD;
+    background-color: #f4f1ed;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  #contenedorD {
+    display: flex;
+    grid-area: contenedorD;
+    background-color: #f4f1ed;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box; } }
+
+@media only screen and (min-width: 1024px) {
+  #contenedorD {
+    display: flex;
+    grid-area: contenedorD;
+    background-color: #f4f1ed;
+    padding-right: 10rem;
+    padding-left: 15rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box; } }
 
 #contenedorE {
   grid-area: contenedorE;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  box-sizing: border-box; }
 
 #contenedorF {
   grid-area: contenedorF;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  box-sizing: border-box; }
 
 #contenedorG {
   grid-area: contenedorG;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  box-sizing: border-box; }
 
 #contenedorH {
   grid-area: contenedorH;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  box-sizing: border-box; }
 
 #contenedorI {
   grid-area: contenedorI;
   padding-top: 3rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  box-sizing: border-box; }
 
 #contenedorJ {
-  grid-area: contenedorJ; }
+  grid-area: contenedorJ;
+  box-sizing: border-box; }
 
 .gridPortfolio {
   width: 99%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto 200px 200px 200px 200px 200px;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas: "sectionA" "sectionB" "sectionC" "sectionD" "sectionE"; }
 
 @media only screen and (min-width: 768px) {
   .gridPortfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto 200px 200px 200px;
-    grid-template-areas: "sectionA sectionB"  "sectionC sectionD"  "sectionE sectionF" "sectionG sectionH"; } }
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "sectionA sectionB" "sectionC sectionD" "sectionE sectionF"; } }
 
 @media only screen and (min-width: 1024px) {
   .gridPortfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto 200px;
-    grid-template-areas: "sectionA sectionB sectionB" "sectionC sectionD sectionE" "sectionF sectionG sectionH"; } }
+    grid-template-rows: auto auto;
+    grid-template-areas: "sectionA sectionB sectionB" "sectionC sectionD sectionE"; } }
 
 #sectionA {
   grid-area: sectionA;
@@ -324,47 +566,60 @@ a {
   margin-right: 5rem;
   margin-bottom: 3rem; }
 
-.card--padding {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
-  padding-right: 5rem; }
+@media only screen and (max-width: 484px) {
+  .card--padding {
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem; } }
 
-.card--marginRight {
-  margin-right: 20rem; }
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .card--padding {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }
 
-.card--marginLeft {
-  margin-left: 20rem; }
+@media only screen and (min-width: 1024px) {
+  .card--padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem; } }
+
+@media only screen and (max-width: 484px) {
+  .card--marginRight {
+    margin-right: 0.5rem; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .card--marginRight {
+    margin-right: 3rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .card--marginRight {
+    margin-right: 20rem; } }
+
+@media only screen and (max-width: 484px) {
+  .card--marginLeft {
+    margin-left: 0.5rem; } }
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+  .card--marginLeft {
+    margin-left: 3rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .card--marginLeft {
+    margin-left: 20rem; } }
 
 .card--corner {
   flex: 1 1 auto;
-  padding: 1rem 1rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem; }
 
 .imagenServicios {
   width: 100%;
   margin-bottom: 1rem; }
-
-.contenedorHead {
-  background-image: linear-gradient(240.75deg, #a9c2e2 -7.54%, #b198af 55.54%, #6d87bc 101.81%);
-  padding-top: 7rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  text-align: center;
-  margin-bottom: 3rem; }
-
-.contenedorHeadB {
-  background-color: #797687;
-  height: 100;
-  padding-top: 7rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  text-align: center;
-  margin-bottom: 3rem;
-  text-align: left; }
 
 .card--marginLeft5 {
   margin-left: 5rem; }
@@ -372,18 +627,9 @@ a {
 .card--marginLeft3 {
   margin-left: 3rem; }
 
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license
+.card-title {
+  margin-top: 1rem; }
 
-Copyright (c) 2013 Daniel Eden
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -439,7 +685,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: flash;
   animation-name: flash; }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -587,7 +832,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: tada;
   animation-name: tada; }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes wobble {
   0% {
     -webkit-transform: translateX(0%);

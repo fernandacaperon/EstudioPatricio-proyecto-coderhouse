@@ -20,53 +20,80 @@
     margin-bottom: 3rem;
 }
 
-.card--padding {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+@media only screen and (max-width: 484px) {
+    .card--padding {
+        padding-top: 0.5rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
-.card--marginRight{
-    margin-right: 20rem;
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+    .card--padding {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
-.card--marginLeft{
-    margin-left: 20rem;
+@media only screen and (min-width: 1024px) {
+    .card--padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    .card--marginRight{
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+    .card--marginRight{
+        margin-right: 3rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .card--marginRight{
+        margin-right: 20rem;
+    }    
+}
+
+@media only screen and (max-width: 484px) {
+    .card--marginLeft{
+        margin-left: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 960px) {
+    .card--marginLeft{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card--marginLeft{
+        margin-left: 20rem;
+    }
 }
 
 .card--corner {
     flex: 1 1 auto;
-    padding: 1rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
 }
 
 .imagenServicios {
     width: 100%;
     margin-bottom: 1rem;
-}
-
-.contenedorHead {
-    background-image: linear-gradient(
-    240.75deg, rgb(169, 194, 226) -7.54%, rgb(177, 152, 175) 55.54%, rgb(109, 135, 188) 101.81%);    padding-top: 7rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contenedorHeadB{
-    background-color: #797687 ; 
-    height: 100;   
-    padding-top: 7rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    text-align: left;
 }
 
 .card--marginLeft5{
@@ -75,4 +102,8 @@
 
 .card--marginLeft3{
     margin-left: 3rem;
+}
+
+.card-title {
+    margin-top: 1rem;
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Patricio - Comunicación & Diseño</title>
     <meta name="description" content="Estudio de profesionales que trabajamos para materializar y difundir tus ideas, visiones, valores, productos y servicios.">
-	<meta name="keywords" content="diseño, comunicación, marcas, branding, servicios, portfolio, estrategia, profesionales, comnunity manager, redes sociales, campaña politica, pagina web, editorial, libros">
+	<meta name="keywords" content="contacto, comunicación, marcas, branding, servicios, portfolio, estrategia, profesionales, comnunity manager, redes sociales, campaña politica, pagina web, editorial, libros">
 	<meta name="author" content="Estudiopatricio.com.ar">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,7 +13,7 @@
 <body class="backgroundContacto">
     <header>
         <nav class="shadow">
-            <a href="index.html"> <img src="img/LogoPatricio.png" alt="Logo Estudio Patricio" width="200px"> </a>
+            <a href="index.html"> <img src="img/LogoPatricio.png" alt="Logo Estudio Patricio"  class="logo"> </a>
             <ul class="menuLista">
                 <li> <a href="servicios.html">Servicios</a></li>
                 <li> <a href="portfolio.html">Portfolio</a></li>
@@ -24,39 +24,39 @@
     </header>
     <div class="container marginTopContainer">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-12">
                 <div>                 
                     <h1 class="form--titulo">Contactanos</h1>
                 </div> 
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-12">
                 <div class="formularioBackground">
                     <form action="envio.php" method="post" class="form-floating ">
                         <fieldset class="form-label">
                             <label for="nombre" class="form-label form_label--margin">Nombre</label>
-                            <input type="text" name="nombre"> <br>
+                            <input type="text" name="nombre" class="heightInput"> <br>
                             <label for="apellido" class="form-label form_label--margin">Apellido</label>
-                            <input type="text" name="apellido"> <br>
+                            <input type="text" name="apellido" class="heightInput"> <br>
                             <label for="email" class="form-label form_label--margin">Email</label>
-                            <input type="email" name="email" placeholder="mail@servidor.com"> 
+                            <input type="email" name="email" class="heightInput"> 
                         </fieldset>
                         <fieldset class="form-label">
-                            <h5> ¿Que servicios te interesan?</h5>
+                            <p class="subtituloFormulario"> ¿Que servicios te interesan?</p>
                             <label for="" class="form_label--margin">Estrategia y gestion de comunicación</label>
-                            <input type="checkbox" name="EG" value="EG"> <br>
+                            <input type="checkbox" name="EG" value="EG" > <br>
                             <label for="" class="form_label--margin">Community manager</label>
                             <input type="checkbox" name="CM" value="CM"> <br>
                             <label for="" class="form_label--margin">Branding digital</label>
                             <input type="checkbox" name="BD" value="BD"><br>
-                            <label for="" class="form_label--margin"> Contrataste nuestros sevicios en otra ocación</label>
-                            <select name="servicio" id="">
+                            <label for="" class="form_label--margin"> Contrataste nuestros sevicios en otra ocasión</label>
+                            <select name="servicio" class="option">
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
-                                <option value="nose">No lo recuedo</option>
+                                <option value="nose">No se</option>
                             </select>
                         </fieldset>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">Comentarios:</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <input type="reset" type="button" class="btn btn-outline-primary" value="Cancelar">
@@ -64,12 +64,11 @@
                     </form>       
                 </div>
             </div>
-
         </div>
     </div>
 
     <footer class="footer"> 
-        <ul >
+        <ul>
             <li> <a href="https://www.facebook.com/"><img src="img/ico-facebook.svg" alt="red social facebook" class="iconoFooter"></a></li>
             <li> <a href="https://twitter.com/?lang=es"><img src="img/ico-twitter.svg" alt="red social twitter"  class="iconoFooter"></a></li>
             <li> <a href="https://www.instagram.com/?hl=es"><img src="img/ico-instagram.svg" alt="red social instagram"  class="iconoFooter"></a></li>
